@@ -1,0 +1,9 @@
+{
+  "id": "dsh-external/dsh-web-ding",
+  "version": "0.3.0",
+  "main": "./lib/index.js",
+  "description": "DSH web plugin: browser notification + two-note chime when the main agent finishes a turn; toggles live in the Settings > Web Ding section.",
+  "engines": { "dsh": ">=0.0.1" },
+  "contributes": { "tools": [], "skills": [] },
+  "client": { "main": "./lib/client.js" }
+}

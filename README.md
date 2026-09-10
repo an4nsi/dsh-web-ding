@@ -1,3 +1,19 @@
+> [!IMPORTANT]
+> **This repository has MOVED and is no longer maintained here.**
+>
+> Development continues at **[`4weaver/dsh-web-ding`](https://github.com/4weaver/dsh-web-ding)**.
+> This copy is frozen at `25323fd` and is **stale**: it still contains a committed
+> `lib/` bundle that the current repository no longer commits (the bundle is now
+> regenerated from `src/` at build time, and only the new copy carries the
+> reproducibility fix described below).
+>
+> Install/pin from `4weaver/dsh-web-ding`, not from here.
+>
+> Note: at some point this repo's `lib/client.js` was not byte-reproducible —
+> the build produced a different bundle on every run (nondeterministic
+> `lightningcss` key ordering fed into the emitted class map). That is fixed in
+> the new repository.
+
 # dsh-web-ding
 
 DSH web plugin: when the **main agent finishes a turn** (`running` true → false),
